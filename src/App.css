@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
   display: flex;
-  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 45%;
+  height: auto;
+  margin: 1rem;
+  padding: .5rem;
   align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+
+}
+
+.img-and-contact {
+  display: flex;
+  align-items: center;
+  width:100%;
+  height: 50;
+
+
+}
+
+.imgWrapper {
+  display: flex;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 33%
+  
+  
 }
 
-.App-link {
-  color: #61dafb;
+.headshot {
+  max-width:100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+.cards-container {
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+@media screen and (max-width: 675px) {
+  .card {
+    width:100%;
   }
-  to {
-    transform: rotate(360deg);
+  .cards-container {
+    width: 100%;
+    display: block;
   }
+  .img-and-contact {
+    flex-direction: column;
+  }
+  .contact-container {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width:100%;
+  }
+
+}
+
+.contact-container {
+  /* padding: 2%; */
+  height:100%;
+  width: 100%;
+  align-content: center;
+}
+
+
+.us-state-map {
+  display: block;
+  margin: auto;
+  width: fit-content;
+  max-width: 100vw;
+}
+.app {
+  display: flex;
+}
+
+.territory{
+margin: 2%;
+}
+
+
+
+.box1 {
+  height: 25vh;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.box2 {
+  width: 10%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.box3 {
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+}
+.box4 {
+  height: 100%;
+  width: 100%;
+  border: 1px solid red;
 }
