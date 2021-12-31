@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cf-clark-customerservice/static/css/main.eaee2e0b.css",
+    "main.js": "/cf-clark-customerservice/static/js/main.f79ce54a.js",
+    "static/js/787.7ab59f61.chunk.js": "/cf-clark-customerservice/static/js/787.7ab59f61.chunk.js",
+    "index.html": "/cf-clark-customerservice/index.html",
+    "main.eaee2e0b.css.map": "/cf-clark-customerservice/static/css/main.eaee2e0b.css.map",
+    "main.f79ce54a.js.map": "/cf-clark-customerservice/static/js/main.f79ce54a.js.map",
+    "787.7ab59f61.chunk.js.map": "/cf-clark-customerservice/static/js/787.7ab59f61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaee2e0b.css",
+    "static/js/main.f79ce54a.js"
+  ]
+}
